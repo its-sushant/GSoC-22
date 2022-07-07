@@ -2,6 +2,8 @@
 
 - Created the python packages for both **[LogisticRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)** and **[Linear SVC](https://scikit-learn.org/stable/modules/generated/sklearn.svm.LinearSVC.html)**
   model. Below is the file structure for created package:
+  
+```python
 
                   ├── linearsvc
                   │   ├── LICENSE
@@ -25,6 +27,7 @@
                           │   │   └── logreg
                           │   └── __init__.py
                           └── model_train.py
+```                        
 
 - Modified **init.py** from the **src** folder of both the python packages as suggested:
 
@@ -54,3 +57,11 @@
 
 - Implemented the agent for **[Linear SVC](https://scikit-learn.org/stable/modules/generated/sklearn.svm.LinearSVC.html)**
   on **[atarshi](https://github.com/fossology/atarashi)** locally.
+
+### Conclusion and Further Plans
+
+- Will make the changes according to further suggestion.
+- Will start implementing **[okapi_BM25](https://en.wikipedia.org/wiki/Okapi_BM25)** in place of
+  **[tfidftransformer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfTransformer.html)**
+  for ranking the license text on dataset for training the models and compare which among the two is working better
+  on dataset.
