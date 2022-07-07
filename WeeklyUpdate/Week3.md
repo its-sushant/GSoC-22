@@ -5,7 +5,8 @@
    - [Add logistic regression model](https://github.com/fossology/Minerva-Dataset-Generation/pull/4)
 - Started working on creating the packages for the trained model. For example the folder structure for
 **LogisticRegression** model should look like:
-              
+
+```python            
               └── logreg
                   ├── MANIFEST.in
                   ├── README.md
@@ -17,3 +18,4 @@
                       │   │   └── logreg
                       │   └── __init__.py
                       └── model_train.py
+```
