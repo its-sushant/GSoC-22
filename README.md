@@ -4,7 +4,7 @@
 ![GitHub](https://img.shields.io/github/followers/its-sushant?style=social)
 ![GSoC @ FOSSology](/static/gsocHeader.png)
 
-<div align = "center"><h2>Improve Minerva OSS Dataset and implement models for Atarashi @ <a href = "https://www.fossology.org/">FOSSology </a></h2></div>
+<div align = "center"><h2>Improve Minerva OSS Dataset and implement models for Atarashi</h2></div>
 
 ## Weekly Updates
 
