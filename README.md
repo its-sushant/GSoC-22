@@ -6,6 +6,77 @@
 
 <div align = "center"><h2>Improve Minerva OSS Dataset and implement models for Atarashi</h2></div>
 
+## Project Overview
+
+In GSoC 2021 [Minerva Dataset](https://github.com/fossology/Minerva-Dataset-Generation) was created to train machine learning
+model for predicting license shortname for [Atarashi](https://github.com/fossology/atarashi) using different machine/deep learning
+models. Currently [Atarashi](https://github.com/fossology/atarashi) has four active agents for predicting license statement from the source code.
+And the highest accuracy we are getting right now is **62%**, which is from [tfidf](https://github.com/fossology/atarashi/blob/master/atarashi/agents/tfidf.py) agent.
+
+## Results
+
+Below given is the accuracy score for all agents that I have created this Google summer of code 22. The accuracy we are getting is from
+[evaluator.py](https://github.com/fossology/atarashi/blob/master/atarashi/evaluator/evaluator.py) and the agent has been created using [Minerva Dataset](https://github.com/fossology/Minerva-Dataset-Generation).
+
+**1. Logistic regression agent**
+
+**Accuracy of agent**
+```
+ Total files scanned = 100
+ Successfully matched = 63
+
+      ++++++++++++++++++ Result ++++++++++++++++++
+      ++++++++++++++++++++++++++++++++++++++++++++
+      ---> Total time elapsed: 2.76 Seconds  <---
+      ---> Accuracy: 63.0%                     <---
+      ++++++++++++++++++++++++++++++++++++++++++++
+      ++++++++++++++++++++++++++++++++++++++++++++
+```
+
+**Result from agent:**
+```json
+{
+    "file": "/home/shushant/check.py",
+    "results": [
+        {
+            "description": "",
+            "shortname": "Apache-2.0",
+            "sim_score": 1.0,
+            "sim_type": "logisticRegression"
+        }
+    ]
+}
+```
+**1. Logistic regression agent**
+
+**Accuracy of agent**
+```
+ Total files scanned = 100
+ Successfully matched = 63
+
+      ++++++++++++++++++ Result ++++++++++++++++++
+      ++++++++++++++++++++++++++++++++++++++++++++
+      ---> Total time elapsed: 2.06 Seconds  <---
+      ---> Accuracy: 63.0%                     <---
+      ++++++++++++++++++++++++++++++++++++++++++++
+      ++++++++++++++++++++++++++++++++++++++++++++
+```
+
+**Result from agent:**
+```json
+{
+    "file": "/home/shushant/check.py",
+    "results": [
+        {
+            "description": "",
+            "shortname": "Apache-2.0",
+            "sim_score": 1.0,
+            "sim_type": "linearsvc"
+        }
+    ]
+}
+```
+
 ## Weekly Updates
 
 | Week   | Updates |
