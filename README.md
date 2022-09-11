@@ -189,10 +189,10 @@ Successfully installed logreg-0.1.0
 
 ## 📚 NOTEBOOKS
 
-- [Sklearn Logistic regression for Multiclass text classification](https://www.kaggle.com/code/sushanttkr07/logistic?scriptVersionId=105138828)
-- [Sklearn Linear Support Vector Machine for Multiclass text classification](https://www.kaggle.com/code/sushanttkr07/linearsvc?scriptVersionId=105147878)
+- [Sklearn Logistic regression for Multiclass text classification](https://www.kaggle.com/code/sushanttkr07/logistic)
+- [Sklearn Linear Support Vector Machine for Multiclass text classification](https://www.kaggle.com/sushanttkr07/linearsvc)
 - [Doc2Vec For Semantic Similarity](https://www.kaggle.com/code/sushanttkr07/doc2vec)
-- [Finetuning using Bert transformer](https://www.kaggle.com/code/sushanttkr07/bertmodel1?scriptVersionId=105132896)
+- [Finetuning using Bert transformer](https://www.kaggle.com/sushanttkr07/bertmodel1)
 
 ## MAJOR PULL REQUESTS
 
